@@ -4,10 +4,12 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Ex2ApplicationTests {
+class Ex1ApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("contextLoads..");
+		//lombok환경에도 추가해줌
 	}
 
 }
